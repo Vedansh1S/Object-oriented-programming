@@ -1,4 +1,4 @@
-package Inherit;
+package inherit;
 
 class Vehicle {
     private String CarBrand;

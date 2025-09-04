@@ -1,4 +1,4 @@
-package Encap;
+package encap;
 
 class thermostat {
     private double temperatureCelsius;

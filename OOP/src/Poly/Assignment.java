@@ -1,4 +1,4 @@
-package Poly;
+package poly;
 
 class Common_Vehicle_Properties {
     private String NumberPlate;

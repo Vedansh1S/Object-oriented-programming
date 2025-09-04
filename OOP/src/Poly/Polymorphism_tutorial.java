@@ -1,4 +1,4 @@
-package Poly;
+package poly;
 
 class Animal {
     public void makeSound() {

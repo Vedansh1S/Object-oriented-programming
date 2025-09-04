@@ -1,4 +1,4 @@
-package Encap;
+package encap;
 
 class BankingSystem {
     private double balance;

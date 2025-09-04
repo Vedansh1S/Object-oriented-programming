@@ -1,4 +1,4 @@
-package Poly;
+package poly;
 
 class PaymentMethod {
     private double amount;

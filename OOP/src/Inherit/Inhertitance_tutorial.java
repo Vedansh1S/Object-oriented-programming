@@ -1,4 +1,4 @@
-package Inherit;
+package inherit;
 
 class Common_Vehicle_Properties{
     private String NumberPlate;
