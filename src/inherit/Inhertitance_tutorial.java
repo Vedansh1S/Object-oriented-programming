@@ -23,10 +23,8 @@ class Common_Vehicle_Properties {
 }
 
 class Car extends Common_Vehicle_Properties {
-    // private String NumberPlate; // this is a subclass variable and it is not the
-    // same as the superclass variable
-    // super.NumberPlate; // this is a superclass variable and it is the same as the
-    // superclass variable
+    // private String NumberPlate; // this is a subclass variable and it is not the same as the superclass variable
+    // super.NumberPlate; // this is a superclass variable and it is the same as the superclass variable
     public Car(String CarNumberPlate) {
         super(CarNumberPlate);
     }
@@ -42,17 +40,11 @@ class Bus extends Common_Vehicle_Properties {
 
 public class Inhertitance_tutorial {
     public static void main(String[] args) {
-        // Common_Vehicle_Properties vehicle = new Car("MH-14-AB-1234"); -> this is a
-        // good example of upcasting, referenced to the superclass and it can hold the
-        // object of the subclass
-        // you cannot access the methods of the subclass in upcasting but you can access
-        // the methods of the superclass
+        // Common_Vehicle_Properties vehicle = new Car("MH-14-AB-1234"); -> this is a good example of upcasting referenced to the superclass and it can hold the object of the subclass
+        // you cannot access the methods of the subclass in upcasting but you can access the methods of the superclass
 
-        // Car newCar = new Common_Vehicle_Properties("MH-14-AB-1234"); -> this is a
-        // good example of downcasting, referenced to the subclass and it can hold the
-        // object of the superclass
-        // you can access the methods of the subclass in downcasting but not the methods
-        // of the superclass
+        // Car newCar = new Common_Vehicle_Properties("MH-14-AB-1234"); -> this is a good example of downcasting, referenced to the subclass and it can hold the object of the superclass
+        // you can access the methods of the subclass in downcasting but not the methods of the superclass
         Car newCar = new Car("MH-14-AB-1234");
         newCar.display();
         newCar.Honk();
