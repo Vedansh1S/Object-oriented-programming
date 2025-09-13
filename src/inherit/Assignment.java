@@ -3,6 +3,7 @@ package inherit;
 class Vehicle {
     private String CarBrand;
 
+    
     public Vehicle(String CarBrand) {
         this.CarBrand = CarBrand;
         System.out.println("Base class called");
@@ -20,9 +21,11 @@ class Vehicle {
 
 class model extends Vehicle {
     private String modelName;
-
-    public model(String brand, String modelName) {
-        super(brand);
+//    private String CarBrand;
+ //   super.CarBrand; // this is a superclass variable and it is the same as the superclass variable
+ //   this.CarBrand; // this is a subclass variable and it is not the same as the superclass variable
+ public model(String brand, String modelName) {
+        super(brand);  // if this is not present, then the superclass constructor will be called
         this.modelName = modelName;
         System.out.println("Derived class called");
         System.out.println();
